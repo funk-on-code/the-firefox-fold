@@ -188,6 +188,7 @@ user_pref("full-screen-api.warning.timeout", 0);
 
 /** URL BAR ***/
 user_pref("browser.urlbar.trending.featureGate", false);
+
 /** NEW TAB PAGE ***/
 user_pref("browser.newtabpage.activity-stream.default.sites", "");
 user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
@@ -223,5 +224,22 @@ user_pref("browser.ml.chat.page", false);
 user_pref("browser.ml.linkPreview.enabled", false);
 user_pref("browser.ml.modelHubRootUrl", "")
 user_pref("browser.ml.modelHubUrlTemplate", "{}")
+
+/*** PASSWORDS: ( Leave it ON, post-KeypassX-failure 2026-02 ) ***/
+
+user_pref("signon.rememberSignons", true);
+user_pref("signon.formlessCapture.enabled", true);
+
+/*** ACTIVITY STREAM ( Leave it OFF, AI in future versions / phone home's ) ***/
+user_pref("browser.newtabpage.activity-stream.default.sites", "");
+user_pref("browser.newtabpage.activity-stream.feeds.section.topstories", false);
+user_pref("browser.newtabpage.activity-stream.feeds.telemetry", false);
+user_pref("browser.newtabpage.activity-stream.feeds.topsites", false);
+user_pref("browser.newtabpage.activity-stream.showSponsored", false);
+user_pref("browser.newtabpage.activity-stream.showSponsoredCheckboxes", false);
+user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
+user_pref("browser.newtabpage.activity-stream.showWeather", false);
+user_pref("browser.newtabpage.activity-stream.telemetry", false);
+user_pref("browser.urlbar.suggest.topsites", false);
 
 //
