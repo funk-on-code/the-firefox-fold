@@ -22,6 +22,7 @@
  -- uBlock Origin
  -- uMatrix
  -- Decentraleyes
+ -- CanvasBlocker
 
  .. as well, #hint ;) **/
 
@@ -116,6 +117,10 @@ user_pref("extensions.enabledScopes", 5);
 
 /** HEADERS / REFERERS ***/
 user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
+
+/** HTTPS ONLY (Always ON, Override at the bottom of this file, if required.) ***/
+user_pref("dom.security.https_only_mode", true)
+user_pref("dom.security.https_only_mode_ever_enabled", true)
 
 /** CONTAINERS ***/
 user_pref("privacy.userContext.ui.enabled", true);
@@ -219,8 +224,8 @@ user_pref("permissions.default.geo", 2);
 user_pref("permissions.default.shortcuts", 2);
 user_pref("permissions.default.xr", 2);
 
-/** AUDIO/VIDEO AUTOPLAY (OFF) ***/
-user_pref("media.autoplay.default", 1)
+/** AUDIO/VIDEO AUTOPLAY (OFF) [Block all video and audio, [1] Audio, [5] Audio + Video (Defaults)] ***/
+user_pref("media.autoplay.default", 5)
 user_pref("media.autoplay.allow-muted", false)
 user_pref("media.autoplay.blocking_policy", 2)
 
