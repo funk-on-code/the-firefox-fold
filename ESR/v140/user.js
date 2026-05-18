@@ -219,6 +219,11 @@ user_pref("permissions.default.geo", 2);
 user_pref("permissions.default.shortcuts", 2);
 user_pref("permissions.default.xr", 2);
 
+/** AUDIO/VIDEO AUTOPLAY (OFF) ***/
+user_pref("media.autoplay.default", 1)
+user_pref("media.autoplay.allow-muted", false)
+user_pref("media.autoplay.blocking_policy", 2)
+
 /** AI (OFF) ***/
 user_pref("browser.ml.chat.page", false);
 user_pref("browser.ml.linkPreview.enabled", false);
@@ -244,5 +249,10 @@ user_pref("browser.newtabpage.activity-stream.showSponsoredTopSites", false);
 user_pref("browser.newtabpage.activity-stream.showWeather", false);
 user_pref("browser.newtabpage.activity-stream.telemetry", false);
 user_pref("browser.urlbar.suggest.topsites", false);
+
+
+/*** [ OVERRIDES: ADD YOUR OWN PREFERENCES HERE (START) ] **/
+
+/*** [ OVERRIDES: ADD YOUR OWN PREFERENCES HERE (END) ] **/
 
 //
