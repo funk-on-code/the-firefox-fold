@@ -230,7 +230,6 @@ user_pref("dom.security.https_only_mode", true);
 user_pref("dom.security.https_only_mode_error_page_user_suggestions", true);
 
 /*** PASSWORDS: ( Leave it ON, post-KeypassX-failure 2026-02 ) ***/
-
 user_pref("signon.rememberSignons", true);
 user_pref("signon.formlessCapture.enabled", true);
 
