@@ -122,7 +122,7 @@ user_pref("network.http.referer.XOriginTrimmingPolicy", 2);
 user_pref("dom.security.https_only_mode", true)
 user_pref("dom.security.https_only_mode_ever_enabled", true)
 
-/** CONTAINERS ***/
+/** CONTAINERS (Required for CanvasBlocker plugin, which I recommend) ***/
 user_pref("privacy.userContext.ui.enabled", true);
 
 /** SAFE BROWSING ***/
